@@ -1,12 +1,20 @@
-nav{
-    background-color: red;
-    display: flex;
-    justify-content: space-around;
-}
+*{
+    margin: 0; /*margen exterior*/
+    padding: 0; /*margen interno*/
+    border: none; /*declarrar que los elementos no tienen bordes*/
+    outline: none; /*declarar que el bodeado que se le agrega a los inputs al seleccionador no exigte*/
+    box-sizing: border-box; /*el tamaño de la caja no sobrepasa a el tamaño del contenedor padre*/
+  }
 
 html{
     background-color: rgba(218, 161, 38, 0.274);
 }
+
+header {
+    background: rgb(255, 255, 255, 0.3);
+    margin: 0;
+    padding: 16px 32px;
+  }
 
 .nav_{
     display: flex;
@@ -22,15 +30,15 @@ html{
 }
 
 .button_{
-    background-color: rgb(255, 136, 0);
+    background-color: rgb(60, 255, 0);
 }
 
 .a_1{
     padding: 8px 16px;
   text-decoration: none;
   border-radius: 32px;
-  border: 1px solid #ffffff;
-  color: #ffffff;
+  border: 1px solid #000;
+  color: #000;
 }
 
 .a_2{
@@ -39,4 +47,30 @@ html{
   border-radius: 32px;
   border: 1px solid #ffffff;
   color: #f39141;
+}
+
+form{
+    padding: 8px 16px;
+  border-radius: 32px;
+  border: 1px solid #000000;
+  color: #f39141;
+}
+
+.lupa{
+    font-size: 2pc;
+}
+.ul_{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.div_form{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+h1{
+    font-size: medium;
 }
