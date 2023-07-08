@@ -1,0 +1,42 @@
+nav{
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+}
+
+html{
+    background-color: rgba(218, 161, 38, 0.274);
+}
+
+.nav_{
+    display: flex;
+    justify-content: space-between;
+}
+
+.li_1{
+    list-style: none;
+}
+
+.li_2{
+    list-style: none;
+}
+
+.button_{
+    background-color: rgb(255, 136, 0);
+}
+
+.a_1{
+    padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 32px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+.a_2{
+    padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 32px;
+  border: 1px solid #ffffff;
+  color: #f39141;
+}
