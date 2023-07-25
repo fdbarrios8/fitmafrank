@@ -7,11 +7,11 @@
   }
 
 html{
-    background-color: rgba(218, 161, 38, 0.274);
+    background-color: #ffc700;
 }
 
 header {
-    background: rgb(255, 255, 255, 0.3);
+    background:#ffc700;
     margin: 0;
     padding: 16px 32px;
   }
@@ -30,11 +30,11 @@ header {
 }
 
 .button_{
-    background-color: rgb(60, 255, 0);
+    background: none;
 }
 
 .a_1{
-    padding: 8px 16px;
+  padding: 8px 16px; 
   text-decoration: none;
   border-radius: 32px;
   border: 1px solid #000;
@@ -42,18 +42,19 @@ header {
 }
 
 .a_2{
-    padding: 8px 16px;
+  padding: 8px 16px;
   text-decoration: none;
   border-radius: 32px;
-  border: 1px solid #ffffff;
-  color: #f39141;
+  border: 1px solid #000;
+  color: #000;
 }
 
-form{
+select{
     padding: 8px 16px;
-  border-radius: 32px;
-  border: 1px solid #000000;
-  color: #f39141;
+    border-radius: 32px;
+    background-color: #ffc700;
+    border: 1px solid #000;
+    
 }
 
 .lupa{
@@ -73,4 +74,17 @@ form{
 
 h1{
     font-size: medium;
+}
+
+.slide_1{
+    display: flex;
+}
+
+.imgSvg{
+    width: 35pc;
+
+}
+
+.imgSvg2{
+    width: 35pc;
 }

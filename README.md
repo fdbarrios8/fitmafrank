@@ -1,6 +1,6 @@
 # My name is Frank Barrios 💾
 
-**Primer Paso :**
+**Administrador de redes ofimaticas :**
 Hacer importacion de los links
 
 [index.css](https://mpkeyner.githud.io/figma/index.css)
