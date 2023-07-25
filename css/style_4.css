@@ -16,6 +16,11 @@ header {
     padding: 16px 32px;
   }
 
+  main{
+    background-color: white;
+  }
+
+
 .nav_{
     display: flex;
     justify-content: space-between;
@@ -77,7 +82,22 @@ h1{
 }
 
 .slide_1{
+    background-color: #ffc700;
     display: flex;
+    border-bottom: 5px solid black;
+
+}
+
+
+
+.parrafo{
+    background-color: white;
+    
+    font-size: 2.2em;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 120px;
+    font-weight:bold ;
 }
 
 .imgSvg{
@@ -86,5 +106,65 @@ h1{
 }
 
 .imgSvg2{
-    width: 35pc;
+    width: 60pc;
+
+}
+
+.grid{ /*Cantidad de columnas o cartas*/
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px 30px;
+    padding: 150px 50px;
+}
+
+
+/*el 2 viene siendo la posicion del elemento que queremos afectar
+.grid :nth-child(2){
+    grid-column: 2 /4;
+    grid-row: 2/4; 
+    height: 100%;
+}*/
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    font-size: 23px;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.p_money{
+    text-decoration: #000;
+
+}
+
+.p_text{
+    color: #0fa958;
+}
+
+
+.containerImg{
+    position: relative;
+    /* width: 18pc; */
+    height: 25pc;
+    border: 5px solid transparent;
+    border-radius: 40px;
+}
+
+.containerImg img{
+    position: absolute;
+    object-fit: cover; /*La imagen va ocupar todo el tamaño del div*/
+    width: 100%; /*ocupa el ancho del padre que es el contenedor*/
+    border-radius: 34px;
+    height: 100%; /*ocupa toda la altura del div*/
+}
+
+
+
+.camisa{
+    transition: all 0.2s ease-in-out; /*cuando pasamos el mouse va a tener una transicion*/
+}
+
+.containerImg:hover  .camisa{
+    opacity: 0; /*para que la imagen que tenga esa imagen se coloque transparente*/
 }
